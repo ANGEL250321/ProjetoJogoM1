@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family:'star';
+  src:url('./soloisttitle1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'star' ;
+  opacity: 0.9;
+  background: url('../imagens/anakan.jpg.jpg');
+  display: flex;
+  flex-direction:column;
+  margin: 0 10%;
+  align-items: center;
+  padding: 80px;
+  color: #48D1CC;
+  text-align: center;
+
+  
+
+}
+
+  button {
+    font-family: 'star';
+    background-color:black;
+    color: #48D1CC;
+    border: 1px solid;
+    border-radius: 8px;
+    font-weight:bolder;
+    font-size: 20px;
+    padding: 15px 20px;
+    }
+    
+     .titulo {
+    display: flex;
+    font-size: 20px;
+    align-items: flex-start;
+}
+h2 {
+  background-color: black;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+  
