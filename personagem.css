@@ -1,0 +1,33 @@
+@font-face {
+    font-family:'star';
+    src:url('./fonte/soloisttitle1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#fundo {
+    font-family: 'star' ;
+    background: url('./imagens/personagens.jpg.jpg');
+    display: flex;
+    flex-direction:column;
+    margin: 0 10%;
+    align-items: center;
+    padding: 80px;
+    color:#48D1CC;
+    text-align: center;
+  
+  }
+
+  .botao {
+    font-family: 'star';
+    background-color:black;
+    color: #48D1CC;
+    border: 1px solid;
+    border-radius: 8px;
+    font-weight:bolder;
+    font-size: 20px;
+    padding: 15px 20px;
+  }
+  h1 {
+  font-size: 50px;
+ }
